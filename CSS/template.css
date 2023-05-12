@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Roboto:ital,wght@0,400;0,500;1,400&family=Staatliches&display=swap');
+
+
+body{
+    background: #4a148c;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+}
+
+img{
+    width: 600px;
+    border-radius: 30px;
+}
+
+.panelSub{
+    text-decoration: none;
+    color: #fff;
+    font-family:"Staatliches",cursive;
+    font-size: 1.5em;
+}
+
+
+#colorNav {
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:#8242cc;
+    height:64px;
+    font-style:italic
+}
+    
+#logoNav {
+    height:55px;
+    margin:0;
+    }
+    
+.fontNav {
+    font-weight:500;
+    font-size:25px;
+    font-family:"Staatliches",cursive
+ }
+    
+.fontNav:hover {
+    color:#FCEE21;
+    background-color:#4a148c
+}
+    
+
+.activo{
+    color: #FCEE21;
+    background: #4a148c;
+}
+
+.titulo-seccion{
+    margin: 100px 50px;
+    font-size: 5em;
+    color: #FCEE21;
+}
+
+.intro{
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 80px 30px;
+}
+
+.seccion{
+    margin: 10px;
+    height: 500px;
+    background-color: #8242cc;
+}
+
+
+.subT{
+    font-style:oblique;
+    color: #fff;
+}
+
+
+@media(max-width: 630px){
+    img{
+        width: 500px;
+    }
+}
+
+
+@media(max-width: 540px){
+    img{
+        width: 420px;
+    }
+}
+
+
+
+@media(max-width: 450px){
+    img{
+        width: 350px;
+    }
+
+    .titulo-seccion{
+    margin: 100px 20px;
+    font-size: 4.5em;
+    }
+
+    .subT{
+        font-size: 2.5em;
+    }
+
+    .intro{
+        font-size: 2em;
+        font-weight: 600;
+        margin: 80px 30px;
+    }
+}

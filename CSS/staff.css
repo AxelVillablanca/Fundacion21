@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+
+body{
+    background: rgb(111,49,201);
+    background: linear-gradient(180deg, rgba(111,49,201,1) 0%, rgba(130,66,204,1) 20%, rgba(154,94,239,1) 50%);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Staff{
+    width: 100%;
+    
+}
+
+
+h1{
+    font-size: 8em;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+   width: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 4em;
+    margin-top: 120px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.boton{
+    background-color: yellow;
+    height: 10%;
+    width: 35%;
+    color: #000;
+    border-radius: 50px;
+    transition: all 1s ease-in-out ;
+}
+
+.boton:hover{
+    background-color: #000;
+    color: yellow;
+    transition: all 1s ease-in-out ;
+}
+
+
+
+@media (max-width:900px){
+    h1{
+        font-size: 5em;
+    }
+
+    img{
+        width: 70%;
+    }
+
+    p{
+        font-size: 3em;
+    }
+
+    .boton{
+        width: 580px;
+    }
+}
+
+
+@media (max-width: 550px){
+
+    h1{
+        font-size: 4.5em;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    p{
+        font-size: 3em;
+    }
+
+    .boton{
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 400px){
+    .Staff{
+        height: 900px;
+    }
+
+    h1{
+        width: 80%;
+        font-size: 5em;
+        text-align:center;
+       
+    }
+
+    P{
+        width: 80%;
+        font-size: 2.5em;
+        text-align: center;
+        align-items: center;
+    }
+
+    img{
+        width: 80%;
+       
+    }
+
+    .boton{
+        margin-top: 80px;
+        width: 300px;
+    }
+
+    .botonS{
+        font-size: 1.6em;
+        text-align: left;
+    }
+
+    
+}
+

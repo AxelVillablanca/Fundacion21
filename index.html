@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio</title>
+
+  <meta name="title" content="Fundación Veintiuno">
+  <meta name="description" content="Pagina oficial de Fundación Veintiuno, estamos enfocados en cubrir los acontecimientos importantes dentro de la región de Ohiggins y el Pais. ">
+  <meta name="keywords" content="Fundación Veintiuno, fundación, veintiuno, fundacion, Rancagua, rancagua, rengo, Rengo, Graneros, graneros, Chile, chile. Noticias, noticias, entrevistas, Entrevistas. Adulto mayor, adulto mayor, abuelos, Abuelos">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="cache-control" content="public, max-age:1800"/>
+  <meta name="language" content="Spanish">
+  <meta name="author" content="Axel Villablanca u Bastian Vásquez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+	
+  <link rel="stylesheet" type="text/css" href="CSS/style1.css">
+  <link rel="stylesheet" href="CSS/noticiero.css">
+  <link rel="stylesheet" href="CSS/slider.css">
+  <link rel="shortcut icon" href="IMAGENES/SVG/LOGOTIPO_NUEVO_BLANCO.svg" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+
+	
+  <!--Logo a la derecha y enlaces izquierda con posicion fija -->
+  <!--Se pone la clase nav-wrapper y automaticamente se hace una navbar -->
+  <nav class="nav-wrapper" id="colorNav">
+      <div class="container">
+        <a href="index.html" class="brand-logo"><img src="IMAGENES/SVG/LOGOTIPO_NUEVO_BLANCO.svg" id="logoNav" alt="logoFundacion"> </a>
+        <!--el data target hace que se ejecute en el logo, el sidenav-trigger hace que desaparezca en pantallas grandes, para hacer responsive, hay que hacer el <a> que esta abajo, mas ocultar el <ul>, despues crear otra ul con los enlaces -->
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+        <i class="material-icons" id="iconoMenu">menu</i>
+        </a>
+        
+        <ul class="right hide-on-med-and-down" id="separador">
+
+           <li><a href="objetivo.html" class="fontNav">Nuestro Objetivo</a></li>
+
+           <li><a href="https://www.darcontarjeta.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=51176825" class="fontNav">Donaciones</a></li>
+           <li><a href="https://www.youtube.com/channel/UCigb6am6NXWOnTFNuxap7Aw" class="fontNav">TV 21</a></li>
+        </ul>
+      </div>
+  </nav>
+
+
+  <!--Este es lo mismo, pero este hace los enlaces responsivos en el menu, la clase sidenav hace que esta se oculte el menu -->
+  <ul class="sidenav" id="menu-responsive">
+ 
+
+    <li><a href="objetivo.html">Nuestro Objetivo</a></li>
+
+    <li><a href="https://www.darcontarjeta.cl/portalpagodirecto/pages/institucion.jsf?idEstablecimiento=51176825">Donaciones</a></li>
+    <li><a href="https://www.youtube.com/channel/UCigb6am6NXWOnTFNuxap7Aw">TV 21</a></li>
+  </ul>
+
+ 
+
+  <!-- Caja Número 1 para pantallas grandes-->
+  <div class="row">
+    <div class="col s12 m10 l8 offset-l2 offset-m1 ">
+      <div id="cage1">
+        <div class="col s10 m6 l6 offset-s1" id="cageInside1">
+          <br>
+          <!--<img src="IMG/21.png" class="responsive-img" id="imgCage1">-->
+          <img src="IMAGENES/21v2.png" alt="21fondo" class="responsive-img" id="imgCage1" loading="lazy" >
+          <p id="fontCage1" class="flow-text">FUNDACIÓN</p>
+          <p id="fontCage2" class="flow-text">VEINTIUNO</p>
+          <p class="fontCage1A">Profesionales voluntarios, dedicados al tratamiento, investigación y difusión de problemáticas sociales desde la comunicación y la información y que permitan solucionar conflictos. <br> <a class="textRef" href="objetivo.html">Conoce nuestras inspiraciones pulsando aquí.</a></p>
+        </div>
+        <div class="col s12 m6 l6" id="cageInside2">
+          <img src="IMAGENES/noticiero/img2.webp  " class="responsive-img" id="imagenP" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----ULTIMAS NOVEDADES---->
+  <div class="row">
+    <div class="col s12 m10 l12" id="cajaUltimas">
+       
+      <center><p id="fontUltimas1">ÚLTIMAS</p></center>
+      <center><p id="fontUltimas2">NOVEDADES</p></center>
+    </div>
+  </div>
+
+  <!----NOTICIERO---->
+  <div class="row" id="cajaRow">
+    <div class="col s12 m12 l12 ">
+      <div class="container2"> <!-- Container2-->
+        <div class="novedades">
+
+         <div class="option active" style="background-image: url(IMAGENES/noticiero/img5.webp);" loading="lazy">
+             <div class="shadow"></div>
+             <div class="label">
+                <div class="icon">
+                  <i class="fas fa-1"></i>
+                </div>
+                <div class="info">
+                   <div class="main">Fundación Veintiuno participa<br>de reunión mensual de la<br>Federación Provincial de<br>UCAM de la Provincia de Colchagua.</div>
+                   <div class="sub"> Nancagua <br> Por invitación de la Federación Provincial de UCAM <br> de la Provincia de Colchagua, el Presidente de <br> Fundación Veintiuno, Periodista Ricardo Lewis, participó <br> de la reunión mensual de dicha Federación <br> encabezada por su Presidenta Sra. Emma Toro y <br> realizada en la ciudad de Nancagua, en dependencias <br> de la UCAM de dicha ciudad el pasado 4 de abril de 2023. <br> En la oportunidad se dio a conocer el proyecto <br> que aportaron profesionales vinculados a dicha institución <br> y que está postulando al FFOIP2023, y que dice relación <br> a Comunicación Territorial, dirigido a Dirigentes de <br> las UCAM de la Provincia de Colchagua. </div>
+                </div>
+             </div>
+          </div>
+
+  
+         <!---- <div class="option" style="background-image: url(IMAGENES/noticiero/img2.webp);" loading="lazy">
+             <div class="shadow"></div>
+             <div class="label">
+                <div class="icon">
+                  <i class="fas fa-2"></i>
+                </div>
+                <div class="info">
+                   <div class="main">NOTICA 2</div>
+                   <div class="sub">Texto de ejemplo Texto de ejemplo Texto de ejemplo<br>Texto de ejemplo Texto de ejemplo Texto de ejemplo </div>
+                </div>
+             </div>
+          </div>
+  
+          <div class="option" style="background-image: url(IMAGENES/noticiero/img4.webp);" loading="lazy">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                 <i class="fas fa-3"></i>
+               </div>
+               <div class="info">
+                  <div class="main">NOTICIA 3</div>
+                  <div class="sub">Texto de ejemplo Texto de ejemplo Texto de ejemplo <br>Texto de ejemplo Texto de ejemplo Texto de ejemplo </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="option" style="background-image: url(IMAGENES/noticiero/img5.webp);" loading="lazy">
+          <div class="shadow"></div>
+          <div class="label">
+             <div class="icon">
+               <i class="fas fa-4"></i>
+             </div>
+             <div class="info">
+                <div class="main">NOTICIA 3</div>
+                <div class="sub">Texto de ejemplo Texto de ejemplo Texto de ejemplo <br>Texto de ejemplo Texto de ejemplo Texto de ejemplo </div>
+             </div>
+          </div>
+       </div>--> 
+       </div>
+
+     </div><!--Cierre Container2-->
+     
+    </div>
+  </div> <!--Cierre row -->
+  
+
+  <!----ENTREVISTA/SLIDER---->
+  <div class="row">
+    <div class="col s12 m12 l4 offset-l1">
+      <h2>REVISA NUESTRAS ENTREVISTAS <br> <span style="color: yellow;"> MÁS RELEVANTES. </span></h2>
+      <p class="entrevistaParrafo">A través de nuestro canal de YouTube podrás encontrar nuestras entrevistas. <br> Puedes encontrarnos como TV Veintiuno en youtube o pulsando el boton que esta más abajo.</p>
+    </div>
+    <div class="col s12 m12 l5 offset-l1">
+      <div class="img-slider">
+        <div class="slide S-activo">
+            <img src="IMAGENES/slider/slider1.webp" alt="slider1" loading="lazy">
+            <div class="info-slider">
+                <h2>Victor Figueroa Vergara</h2>
+                <p>Entrevista realizada al dirigente y gestor social Sr. Víctor Figueroa Vergara, en Enero de 2023, mediante la cual realiza un profundo análisis de la actual realidad de los Adultos Mayores en Chile. Una mirada realista, crítica y con mirada futura. <br>
+                <a class="textRef" href="https://youtu.be/6Ghs4GsghXQ">Vea la primera parte</a>    <a class="textRef MLF" href="https://youtu.be/u_949c0ETHM">Vea la Segunda parte</a></p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="IMAGENES/slider/slider2.webp" alt="slider2" loading="lazy">
+            <div class="info-slider">
+                <h2>Emma Toro Arancibia</h2>
+                <p>Entrevista realizada a la Presidenta de la Federación Provincial de Colchagua de uniones comunales de adultos mayores Sra. Emma Toro Arancibia, en la cual conoceremos la mirada de una dirigente social de vasta y reconocida experiencia en la representación social. <br> <a class="textRef" href="https://www.youtube.com/watch?v=vpCigePpEeU">Vea la entrevista aqui</a></p>
+            </div>
+        </div>
+        
+        <div class="navegacion">
+            <div class="boton S-activo"></div>
+            <div class="boton"></div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+  <!----BOTON ENTREVISTAS---->
+  <center>
+    <a href="https://www.youtube.com/channel/UCigb6am6NXWOnTFNuxap7Aw" target="_blank"> <div class="boton">
+         <p class="botonS">IR AL CANAL TV 21</p>
+     </div></a>
+  </center>
+
+
+  <!----REDES SOCIALES---->
+  <div class="row">
+  <div class="col s12 m10 l10 offset-l1 offset-m1">
+    <h2 class="tituloRD">NUESTRAS <span style="color: yellow;">REDES SOCIALES.</span></h2>
+    
+    <div class="redes col s12 m10 l10">
+
+
+      <a href="https://www.instagram.com/fundacion.veintiuno/" target="_blank"><div class="redes SM "> <img class="iconoRS" src="IMAGENES/SVG/instagram.svg" alt="" loading="lazy"> <p class="fundaC">fundacion.veintiuno</p> </div> </a>
+      <a href="https://www.facebook.com/Fundacion21" target="_blank"><div class="redes SM" > <img class="iconoRS" src="IMAGENES/SVG/facebook1.svg" alt="" loading="lazy">  <p class="fundaC">Fundacion Veintiuno</p></div>  </a>
+      <a href="https://www.youtube.com/channel/UCigb6am6NXWOnTFNuxap7Aw" target="_blank"><div class="redes SM"> <img class="iconoRS" src="IMAGENES/SVG/youtube1.svg" alt="" loading="lazy"><p class="fundaC">Fundacion Veintiuno - 21 TV</p></div> </a>
+    
+  </div>
+  </div>
+  </div>
+
+
+
+ <!----FOOTER---->
+  <footer class="col s12 m12 l12">
+  <img class="logo" src="IMAGENES/SVG/LOGOTIPO_NUEVO_BLANCO.svg" alt="logo" loading="lazy">
+<div class="containerP">
+  <a href="politicas.html" target="_blank" class="footerP">Políticas de privacidad</a>
+  <a href="contacto.html" target="_blank" class="footerP">Contactenos</a>
+</div>
+  </footer>
+  
+
+  <!--Se pone para que las funciones hagan efectos. -->
+  <script>
+  	document.addEventListener('DOMContentLoaded', function(){
+  		M.AutoInit();
+  });
+  </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b6f78bb9f2.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>

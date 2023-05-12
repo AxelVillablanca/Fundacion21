@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Roboto:ital,wght@0,400;0,500;1,400&family=Staatliches&display=swap');
+  
+  body {
+  background-color:#4a148c
+  }
+  
+  h2 {
+  color:#fff;
+  }
+  
+  footer {
+  background:#6f31c9;
+  background:linear-gradient(90deg,rgba(111,49,201,1) 5%,rgba(130,66,204,1) 25%,rgba(154,94,239,1) 60%);
+  width:100%;
+  height:400px;
+  margin:0!important;
+  padding:0!important
+  }
+  
+  .textRef {
+  color:#FCEE21;
+  text-decoration:none
+  }
+
+  .MLF{
+    margin-left: 20px;
+  }
+  
+  .entrevistaParrafo {
+  color:#fff;
+  padding:15px;
+  text-align:start;
+  margin:5px;
+  width:99%;
+  height:400px;
+  font-size:2.5em;
+  font-family:"Staatliches",cursive;
+  background:#9a5eef;
+  background:linear-gradient(180deg,rgba(154,94,239,1) 5%,rgba(130,66,204,1) 60%,rgba(111,49,201,1) 90%);
+  border-radius:15px
+  }
+  
+  .iconoRS {
+  width:120px
+  }
+  
+  .SM {
+  display:inline-flex
+  }
+  
+  .redes {
+  display:inline-block;
+  margin:40px
+  }
+  
+  .fundaC {
+  display:inline-block;
+  margin-top:100px;
+  font-family:"Staatliches",cursive;
+  font-size:25px;
+  color:#fff
+  }
+  
+  .tituloRD {
+  font-size:4em
+  }
+  
+  .logo {
+  position:absolute;
+  width:300px;
+  opacity:.5;
+  margin:70px 30px 10px 200px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:30px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:inline-flex;
+  margin:200px 50px 0;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:100px 0 0 700px
+  }
+  
+  .containerP a:hover {
+  color:#FCEE21;
+  transition:all .4s ease-in-out
+  }
+  
+  .boton {
+  background-color:#ff0;
+  height:10%;
+  width:800px;
+  color:#000;
+  border-radius:50px;
+  transition:all 1s ease-in-out
+  }
+  
+  .botonS {
+  font-size:3em;
+  margin-top:120px;
+  font-family:'Anton',sans-serif;
+  text-align:center
+  }
+  
+  .boton:hover {
+  background-color:#000;
+  color:#ff0;
+  transition:all 1s ease-in-out
+  }
+  
+  #cage1 {
+  margin-top:20px;
+  height:550px;
+  background:#9a5eef;
+  background:linear-gradient(90deg,rgba(154,94,239,1) 0%,rgba(116,54,205,1) 65%,rgba(111,49,201,1) 73%);
+  border-radius:200px 95px 95px 100px
+  }
+  
+  #colorNav {
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#8242cc;
+  height:60px;
+  font-style:italic
+  }
+  
+  .fontNav {
+  font-weight:500;
+  font-size:30px;
+  margin-left: 35px;
+  font-family:"Staatliches",cursive
+  }
+  
+  .fontNav:hover {
+  color:#FCEE21;
+  background-color:#4a148c
+  }
+  
+  #imagenP {
+  margin:40px 20px 0 0;
+  border-radius:40px 100px 100px 40px
+  }
+  
+  #logoNav {
+  height:55px
+  }
+  
+  #cageInside1 {
+  border-bottom-right-radius:25%;
+  
+  }
+  
+  #cageInside2 {
+  height:500px
+  }
+  
+  #imgCage1 {
+  margin-left:320px;
+  margin-bottom:-220px;
+  height:300px
+  }
+  
+  #fontCage1 {
+  margin-top:-2px;
+  margin-left:120px;
+  font-size:80px;
+  font-family:"Anton",sans-serif;
+  color:#fff;
+  margin-bottom:-100px;
+  color:#fcee21
+  }
+  
+  #fontCage2 {
+  margin-left:150px;
+  font-size:80px;
+  font-family:"Anton",sans-serif;
+  color:#fff;
+  margin-bottom:-120px
+  }
+  
+  .fontCage1A {
+  margin-left:2%;
+  margin-top:135px;
+  font-style:italic;
+  color:#fff;
+  font-size:22px;
+  font-weight:600;
+  font-family:"Abel",sans-serif
+  }
+  
+  #iconoMenu {
+  font-size:40px;
+  margin-top:10px
+  }
+  
+  #cajaRow {
+  background-color:#4a148c
+  }
+  
+  #fontUltimas1 {
+  font-family:"Anton",sans-serif;
+  font-size:60px;
+  margin-bottom:-80px;
+  margin-top:20px;
+  color:#fff
+  }
+  
+  #fontUltimas2 {
+  font-family:"Anton",sans-serif;
+  font-size:60px;
+  color:#ff0
+  }
+  
+  #cajaUltimas {
+  background:#4a148c;
+  height:200px;
+  width:100%;
+  margin-bottom:-30px
+  }
+  
+  #span1 {
+  color:#fff;
+  font-size:80px;
+  display:inline;
+  opacity:.05;
+  position:absolute;
+  font-weight:bolder;
+  font-style:normal
+  }
+  
+  #span2 {
+  color:#fff;
+  font-size:50px;
+  display:inline;
+  opacity:.05;
+  position:absolute;
+  font-weight:bolder;
+  font-style:normal;
+  margin-left:40%;
+  margin-top:5%
+  }
+  
+  #span3 {
+  color:#fff;
+  font-size:50px;
+  display:inline;
+  opacity:.05;
+  position:absolute;
+  font-weight:bolder;
+  font-style:normal;
+  margin-left:30%;
+  margin-top:10%
+  }
+  
+  @media (max-width: 1750px) {
+  #fontCage1 {
+  font-size:60px
+  }
+  
+  #fontCage2 {
+  font-size:60px;
+  margin-top:80px
+  }
+  
+  #cage1 {
+  height:520px
+  }
+  
+  .fontNav {
+  font-size:33px;
+
+  }
+  
+  .iconoRS {
+  width:110px
+  }
+  
+  .fundaC {
+  font-size:25px;
+  margin:0 0 50px
+  }
+  
+  .redes {
+  margin:30px
+  }
+  
+  footer {
+  height:300px
+  }
+  
+  .logo {
+  position:absolute;
+  width:300px;
+  opacity:.3;
+  margin:30px 30px 40px 100px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:30px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:inline-flex;
+  margin:150px 20px 0 50px;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:120px 0 0 400px
+  }
+  }
+  
+
+
+  @media (max-width: 1400px) {
+  .entrevistaParrafo {
+    height:480px;
+    width:95%;
+    font-size:2.2em;
+    text-align:center;
+    margin:10px
+    }
+  }
+
+  @media (max-width: 1300px) {
+  .fontNav {
+  font-size:28px;
+  }
+  
+  #fontCage1 {
+  font-size:40px
+  }
+  
+  #fontCage2 {
+  font-size:40px
+  }
+  
+  .fontCage1A {
+  font-size:20px
+  }
+  
+  #cage1 {
+  height:440px
+  }
+  
+  #imgCage1 {
+  margin-left:60px;
+  margin-bottom:-220px;
+  height:280px
+  }
+  
+  .iconoRS {
+  width:120px;
+  margin:10px
+  }
+  
+  .fundaC p{
+  font-size:30px;
+  padding: 10px 30px 80px 30px
+  }
+  
+  .entrevistaParrafo {
+    height:400px;
+    width:95%;
+    font-size:2em;
+    text-align:center;
+    margin:10px
+    }
+
+
+  .redes {
+  margin:30px
+  }
+  
+  footer {
+  height:300px
+  }
+  
+  .logo {
+  position:absolute;
+  width:200px;
+  opacity:.3;
+  margin:30px 30px 40px 100px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:20px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:inline-flex;
+  margin:150px 20px 0 50px;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:120px 0 0 300px
+  }
+  }
+
+
+  @media (max-width: 1000px) {
+    .entrevistaParrafo {
+      height:300px;
+      width:95%;
+      font-size:2em;
+      text-align:center;
+      margin:10px
+      }
+  }
+
+
+  
+  @media (max-width: 830px) {
+  #fontCage1 {
+  font-size:40px;
+  margin-left:60px
+  }
+  
+  #fontCage2 {
+  font-size:40px;
+  margin-left:70px
+  }
+  
+  .fontCage1A {
+  font-size:20px
+  }
+  
+  #cage1 {
+  height:500px
+  }
+  
+  .boton {
+  height:10%;
+  width:380px
+  }
+  
+  .botonS {
+  font-size:2.2em;
+  margin:50px 0 150px;
+  font-family:'Anton',sans-serif;
+  text-align:center
+  }
+
+  .entrevistaParrafo {
+    height:300px;
+    width:95%;
+    font-size:2em;
+    text-align:center;
+    margin:10px
+    }
+
+  
+  .logo {
+  position:absolute;
+  width:150px;
+  opacity:.3;
+  margin:80px 30px 40px
+  }
+  
+  .footerP {
+  font-size:18px;
+  margin:150px 20px 0
+  }
+  
+  .containerP {
+  margin:100px 0 0 180px
+  }
+  }
+
+
+  @media (max-width: 730px) {
+  #cage1 {
+    height:550px
+    }
+  }
+  
+  @media (max-width: 600px) {
+  .iconoRS {
+  width:100px
+  }
+  
+  .fundaC {
+  font-size:20px;
+  margin:0 0 50px
+  }
+  
+  .redes {
+  margin:30px
+  }
+  
+  #cage1 {
+  width:92%;
+  border-top-left-radius:30%;
+  border-bottom-right-radius:30%;
+  height: 500px;
+  }
+  
+  #cageInside2 {
+  display:none
+  }
+  
+  .boton {
+  height:10%;
+  width:380px
+  }
+  
+  .botonS {
+  font-size:2.2em;
+  margin:50px 0 150px;
+  font-family:'Anton',sans-serif;
+  text-align:center
+  }
+  
+  footer {
+  height:600px
+  }
+  
+  .logo {
+  position:absolute;
+  width:280px;
+  opacity:.3;
+  margin:30px 30px 10px 110px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:30px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:block;
+  margin:20px 20px 30px;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:5px 20px 20px;
+  padding-top:300px;
+  text-align:center
+  }
+  }
+  
+  @media (max-width: 450px) {
+  h2 {
+  text-align:center
+  }
+  
+  #cage1 {
+  height:550px;
+  margin:10px
+  }
+  
+  .fontCage1A {
+  font-size:24px;
+  font-weight:600
+  }
+  
+  #imgCage1 {
+  height:240px
+  }
+  
+  .entrevistaParrafo {
+  height:400px;
+  width:95%;
+  font-size:2.2em;
+  text-align:center;
+  margin:10px
+  }
+  
+  .boton {
+  height:10%;
+  width:380px
+  }
+  
+  .botonS {
+  font-size:2.2em;
+  margin:50px 0 150px;
+  font-family:'Anton',sans-serif;
+  text-align:center
+  }
+  
+  .iconoRS {
+  width:80px
+  }
+  
+  .fundaC {
+  font-size:20px;
+  margin:0 0 50px
+  }
+  
+  .redes {
+  margin:30px
+  }
+  
+  footer {
+  height:600px
+  }
+  
+  .logo {
+  position:absolute;
+  width:250px;
+  opacity:.3;
+  margin:30px 30px 40px 100px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:30px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:block;
+  margin:30px 20px;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:50px 20px 20px;
+  padding-top:300px;
+  text-align:center
+  }
+  }
+  
+  @media (max-width: 400px) {
+  h2 {
+  text-align:center
+  }
+  
+  #cage1 {
+  height:650px;
+  margin:10px
+  }
+
+  .fontCage1A {
+    font-size:24px;
+    font-weight:600
+    }
+  
+  #imgCage1 {
+  height:220px
+  }
+  
+  .iconoRS {
+  width:70px
+  }
+  
+  .fundaC {
+  text-align:center;
+  font-size:18px;
+  margin:0 0 50px
+  }
+  
+  .redes {
+  margin:30px
+  }
+  
+  .entrevistaParrafo {
+  height:420px;
+  width:95%;
+  font-size:2em;
+  text-align:center
+  }
+  
+  .boton {
+  height:10%;
+  width:350px
+  }
+  
+  .botonS {
+  font-size:2em;
+  margin:190px 0 150px;
+  font-family:'Anton',sans-serif;
+  text-align:center
+  }
+  
+  footer {
+  height:600px
+  }
+  
+  .logo {
+  position:absolute;
+  width:200px;
+  opacity:.3;
+  margin:30px 30px 10px 90px
+  }
+  
+  .footerP {
+  color:#fff;
+  font-size:30px;
+  font-family:"Staatliches",cursive;
+  font-style:italic;
+  display:block;
+  margin:20px 20px 30px;
+  opacity:.8
+  }
+  
+  .containerP {
+  margin:5px 20px 20px;
+  padding-top:300px;
+  text-align:center
+  }
+  }
